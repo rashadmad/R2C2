@@ -1,3 +1,4 @@
+import { icon } from "@fortawesome/fontawesome-svg-core";
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
@@ -5,7 +6,9 @@ const config: GatsbyConfig = {
     title: `R2C2 | Reimagining Roseland Community Collective`,
     siteUrl: `https://www.R2c2Reimaginingroseland.org`,
     description: `We our R2C2, a non-profit dedicated to the the most vulnerable people of Roseleand`,
-    image: `https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3816.JPG`,
+    author: `Rashad Madison`,
+    icon: `src/images/star.png`,
+    image: `src/images/star.png`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
