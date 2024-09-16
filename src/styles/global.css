@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .yellowtail-regular {
+    font-family: "Yellowtail", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .flag {
+    background: hsla(0, 0%, 100%, 1);
+
+    background: linear-gradient(270deg, hsla(0, 0%, 100%, 1) 12%, hsla(198, 93%, 60%, 1) 13%, hsla(198, 93%, 60%, 1) 31%, hsla(198, 93%, 60%, 1) 31%, hsla(0, 0%, 100%, 1) 32%, hsla(0, 0%, 100%, 1) 50%, hsla(0, 0%, 100%, 1) 70%, hsla(198, 93%, 60%, 1) 71%, hsla(198, 93%, 60%, 1) 88%, hsla(0, 0%, 100%, 1) 89%);
+
+    background: -moz-linear-gradient(270deg, hsla(0, 0%, 100%, 1) 12%, hsla(198, 93%, 60%, 1) 13%, hsla(198, 93%, 60%, 1) 31%, hsla(198, 93%, 60%, 1) 31%, hsla(0, 0%, 100%, 1) 32%, hsla(0, 0%, 100%, 1) 50%, hsla(0, 0%, 100%, 1) 70%, hsla(198, 93%, 60%, 1) 71%, hsla(198, 93%, 60%, 1) 88%, hsla(0, 0%, 100%, 1) 89%);
+
+    background: -webkit-linear-gradient(270deg, hsla(0, 0%, 100%, 1) 12%, hsla(198, 93%, 60%, 1) 13%, hsla(198, 93%, 60%, 1) 31%, hsla(198, 93%, 60%, 1) 31%, hsla(0, 0%, 100%, 1) 32%, hsla(0, 0%, 100%, 1) 50%, hsla(0, 0%, 100%, 1) 70%, hsla(198, 93%, 60%, 1) 71%, hsla(198, 93%, 60%, 1) 88%, hsla(0, 0%, 100%, 1) 89%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#38BDF8", GradientType=1 );
+  }
+  .hero {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .Roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .landingPageBG {
+    background: linear-gradient(190deg, rgba(192, 192, 192, 0.75), rgba(56,189,248, 0.75)),
+                url('https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3771.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .aside {
+    object-position: 100% 0;  
+  	object-position: 0 25%; 
+  }
+  

@@ -1,0 +1,42 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Gatsby files
+.cache/
+public/
+
+# Environment variables
+.env
+.env.*.local
+
+# Ignore gatsby files generated on build
+.gatsby/
+
+# VS Code specific files (optional)
+.vscode/
+
+# Mac-specific hidden files
+.DS_Store
+
+# Parcel cache (optional)
+.parcel-cache/
+
+# Ignore IDE config files (optional)
+.idea/
+*.sublime-workspace
+*.sublime-project
