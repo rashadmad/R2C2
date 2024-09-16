@@ -33,9 +33,8 @@ const ServicesCallToAction: React.FC = () => (
           <h2 className="mb-8 text-3xl font-bold tracking-tight sm:text-4xl text-sky-500">
             Hear a word from 
             <br />
-            The leader of R2C2
-            <br />
-            Steven Gates
+            the leader of R2C2
+            <br />Steven Gates
           </h2>
 
           <div className="aspect-video">
