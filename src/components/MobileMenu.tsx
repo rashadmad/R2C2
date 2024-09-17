@@ -1,6 +1,6 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandPeace, faHeart, faUsers, faTimes, faBars } from '@fortawesome/free-solid-svg-icons';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'gatsby';
 import React from 'react';
 import Brand from './Brand';

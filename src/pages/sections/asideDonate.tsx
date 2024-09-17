@@ -1,9 +1,7 @@
 import React from "react";
 import Donate from "../../components/Donate";
-import MockData from "../../data/copyData";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPeace, faDove } from "@fortawesome/free-solid-svg-icons";
-import Brand from "../../components/Brand";
+import { faPeace} from "@fortawesome/free-solid-svg-icons";
 
 const AsideDonate: React.FC = () => {
   return (

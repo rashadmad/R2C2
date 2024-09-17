@@ -1,17 +1,5 @@
 import React from "react";
-import Donate from "../../components/Donate";
-import CopyData from "../../data/copyData";
-import Brand from "../../components/Brand";
 
-interface CopyProps {
-  id: number;
-  name: string;
-  category: string;
-  description: string;
-  imgSrc: string;
-  gradientFrom: string;
-  gradientTo: string;
-}
 
 const Testimonials: React.FC = () => {
   return (

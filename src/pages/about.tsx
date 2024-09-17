@@ -1,11 +1,6 @@
 import React from "react";
 
 //sections
-import WhoWeServe from "./sections/whoWeServe";
-import AsideDonate from "./sections/asideDonate";
-import ServicesCallToAction from "./sections/callToAction";
-import MainContent from "./sections/MainContent";
-import MobileMenu from "../components/MobileMenu";
 import Layout from "../components/Layout"
 import SEO from "../components/seo";
 import AboutMainContent from "./sections/AboutMainContent";

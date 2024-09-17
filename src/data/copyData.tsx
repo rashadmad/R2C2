@@ -1,4 +1,3 @@
-import initiatives from "../pages/initiatives";
 
 const MockData = {
   heroCopy: `R2C2 is here to support the growth of the historic Roseland community apart of the greater metropolitan area of Chicago by supporting its most vulnerable.`,
@@ -81,6 +80,7 @@ const MockData = {
       icon: "fa-peace",
       imgSrc: "https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3802.JPG",
       title: "Victim Advocacy",
+      altTag: "steven and kid peace sign with hands",
       description:
         "We work with both victims and perpetrators of crime. We don't judge; we explore trauma and start the healing process.",
     },
@@ -90,6 +90,7 @@ const MockData = {
       imgSrc:
         "https://stevegatesmedia.s3.us-east-2.amazonaws.com/0_1+cropped.png",
       title: "Mentorship",
+      altTag: "Mentor with kid",
       description:
         "We practice journey mapping. After stabilizing a participant and building up their self-esteem, we then set realistic goals and work tirelessly to fulfill them.",
     },
@@ -99,6 +100,7 @@ const MockData = {
       imgSrc:
         "https://images.unsplash.com/photo-1436450412740-6b988f486c6b?q=80&w=4140&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Expungement services",
+      altTag: "law Building",
       description:
          'We have a partnership with the expungement agency "T.R.E.A.D". We work on cleaning peoples records and getting there lives on track',
     },
@@ -108,6 +110,7 @@ const MockData = {
       imgSrc:
         "https://cdngeneral.rentcafe.com/dmslivecafe/3/551372/11111%20S%20Vernon%20Ave%20Apartments%20Chicago%20Kitchen.jpg?crop=(0,0,300,200)&cropxunits=300&cropyunits=200&width=480&quality=90",
       title: "Resource Referrals",
+      altTag: "Housing",
       description:
         "Addressing the needs of individuals and families through intensive case management and referrals",
     },
@@ -117,6 +120,7 @@ const MockData = {
       imgSrc:
         "https://images.unsplash.com/photo-1495603889488-42d1d66e5523?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Returning citizens support",
+      altTag: "Professional Black Man",
       description:
         "Supports for individuals and loved ones returning from the Carceral System",
     },
@@ -126,6 +130,7 @@ const MockData = {
       imgSrc:
         "https://stevegatesmedia.s3.us-east-2.amazonaws.com/manWorking.jpg",
       title: "Non-traditional career paths",
+      altTag: "Blue collar Black Man",
       description:
         "Creative career opportunities for individuals and families with barriers to entry into the workforce.",
     },

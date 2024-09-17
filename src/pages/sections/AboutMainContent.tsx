@@ -1,12 +1,5 @@
 import React from "react";
-import Donate from "../../components/Donate";
-import CopyData from "../../data/copyData";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
-import Teams from "./teams";
 import copyData from "../../data/copyData";
-import ServiceCard from "../../components/ServiceCard";
-import StepsCard from "../../components/StepsCard";
 
 interface CopyProps {
   id: number;

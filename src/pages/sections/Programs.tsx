@@ -1,17 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faAngleDoubleDown,
-  faAngleDown,
-  faArrowDown,
-  faDownLong,
-  faHandPeace,
-  faHeart,
-  faUsers,
-} from "@fortawesome/free-solid-svg-icons";
 import copyData from "../../data/copyData";
-import ServiceCard from "../../components/ServiceCard";
-import Donate from "../../components/Donate";
 import StepsCard from "../../components/StepsCard";
 
 

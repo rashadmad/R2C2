@@ -11,7 +11,7 @@ const Donate: React.FC<DonateProps> = ({ colorStyleStandard = true }) => {
     const color = colorStyleStandard ? standardStyles : alternativeStyles;
 
     return (
-        <a target="_blank" href="https://donate.stripe.com/6oEbJM1Gu62S73W8wx" className={color}>
+        <a target="_blank" href="https://donate.stripe.com/6oEbJM1Gu62S73W8wx" className={color} rel="noreferrer">
             Donate
         </a>
     );

@@ -1,5 +1,4 @@
 import React from "react";
-import copy from "../../data/copyData";
 
 const AboutWhere: React.FC = () => {
   return (

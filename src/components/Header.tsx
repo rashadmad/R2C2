@@ -1,9 +1,8 @@
 import React from "react";
 import { useLocation } from "@reach/router";
 import { useState } from "react";
-import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Brand from "../components/Brand";
 import Navigation from "../components/Navigation";
 import MobileMenu from "../components/MobileMenu";
@@ -11,7 +10,10 @@ import MobileMenu from "../components/MobileMenu";
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
-  console.log(location.pathname);
+  
+  // Paths where the Navigation component should not be shown
+  const excludedPaths = ["/initiatives", "/about", "/resources"];
+
   return (
     <header className="bg-white inset-x-0 sticky top-0 z-50">
       <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -28,7 +30,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faBars} className="h-6 w-6" />
           </button>
         </div>
-        {location.pathname !== "/initiatives" && location.pathname !== "/about" && location.pathname !== "/resources" && (
+        {!excludedPaths.includes(location.pathname) && (
           <Navigation name="home" href="/" />
         )}
       </nav>

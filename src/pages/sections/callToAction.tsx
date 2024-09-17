@@ -1,29 +1,5 @@
 import React from "react";
-import {
-  faHandPeace,
-  faHeart,
-  faUsers,
-} from "@fortawesome/free-solid-svg-icons";
-import copyData from "../../data/copyData";
 import Donate from "../../components/Donate";
-
-const serviceData = [
-  {
-    icon: faHandPeace,
-    title: copyData.service1Title,
-    description: copyData.service1Description,
-  },
-  {
-    icon: faHeart,
-    title: copyData.service2Title,
-    description: copyData.service2Description,
-  },
-  {
-    icon: faUsers,
-    title: copyData.service3Title,
-    description: copyData.service3Description,
-  },
-];
 
 const ServicesCallToAction: React.FC = () => (
   <div className="bg-white">

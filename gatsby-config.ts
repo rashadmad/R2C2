@@ -1,18 +1,14 @@
-import { icon } from "@fortawesome/fontawesome-svg-core";
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `R2C2 | Reimagining Roseland Community Collective`,
     siteUrl: `https://www.R2c2Reimaginingroseland.org`,
-    description: `We our R2C2, a non-profit dedicated to the the most vulnerable people of Roseleand`,
+    description: `We our R2C2, a non-profit dedicated to the the most vulnerable people of Roseland`,
     author: `Rashad Madison`,
     icon: `src/images/star.png`,
     image: `src/images/star.png`,
   },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
     "gatsby-plugin-postcss",
@@ -69,7 +65,7 @@ const config: GatsbyConfig = {
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
         display: `standalone`,
-        icon: `src/images/favicon.ico`, 
+        icon: `src/images/star.png`,
       },
     },
   ],

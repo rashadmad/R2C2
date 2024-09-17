@@ -1,16 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import { faPeace } from "@fortawesome/free-solid-svg-icons";
 
 const ServiceCard: React.FC<{
   icon: any;
   imgSrc: string;
+  altTag: string;
   title: string;
   description: string;
-}> = ({ icon,imgSrc, title, description }) => (
+}> = ({ icon,imgSrc, title, description, altTag }) => (
   <div className="max-w-sm">
     <div className="relative">
-      <img className="rounded-lg w-full size-60 ml-5" src={imgSrc}></img>
+      <img className="rounded-lg w-full size-60 ml-5" src={imgSrc} alt={altTag}></img>
     </div>
     <div className="p-4 w-full grid-cols-2">
       <div className="pl-6">
