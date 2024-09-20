@@ -12,8 +12,8 @@ const MainContent = () => (
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
       <div className="gradient-overlay transform-gpu overflow-hidden blur-3xl"></div>
         <div className="text-center">
-          <h1 className="text-5xl roboto-bold width-100 font-bold tracking-tight text-white">
-            <div className="yellowtail-regular text-5xl">Welcome to the</div>
+          <h1 className="text-2xl md:text-5xl roboto-bold width-100 font-bold tracking-tight text-white">
+            <div className="text-3xl yellowtail-regular md:text-5xl">Welcome to the</div>
             <div className="inline">Re-imagining{" "}</div>
             <div className="inline">Roseland{" "}</div>
             <div className="inline">Community{" "}</div>
@@ -21,7 +21,7 @@ const MainContent = () => (
 
             <hr className="m-5" />
           </h1>
-          <p className="pretty lato-regular mt-1 text-lg leading-8 text-white">
+          <p className="text-base md:text-2xl pretty lato-regular mt-1 leading-8 text-white">
             {CopyData.Home.topHeader}
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">

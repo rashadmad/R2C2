@@ -19,11 +19,11 @@ const AsideDonate: React.FC = () => {
       />
       <div className="relative mx-auto flex max-w-l flex-col items-center text-center">
       
-        <h2 className="roboto-bold text-5xl font-bold tracking-tight text-white sm:text-4xl">
+        <h2 className="roboto-bold text-2xl md:text-5xl font-bold tracking-tight text-white sm:text-4xl">
           Be Apart &nbsp; 
           <FontAwesomeIcon className="fa-xs margin-t-5 text-white" icon={faPeace} />f The Movement
         </h2>
-        <p className="lato-regular border-b-2 pb-10 border-sky-400 text-white fa-xl m-5 tracking-tight">For A Safer & Greater Roseland.</p>
+        <p className="lato-regular text-xl md:text-3xl border-b-2 pb-10 border-sky-400 text-white fa-xl m-5 tracking-tight">For A Safer & Greater Roseland.</p>
         <p className="text-white max-w-md mb-3">We are inviting people who care about the Roseland community. People who seek to invest in holistic community-focused initiatives targeted to stem the tide of violence in Chicago.</p>
         <div className="m-5">
           <Donate colorStyleStandard={true} />

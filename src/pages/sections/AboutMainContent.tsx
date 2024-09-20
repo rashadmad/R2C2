@@ -31,9 +31,9 @@ const AboutMainContent = () => (
           {copyData.TeamMembers.map((member: CopyProps) => (
             <div key={member.id} className="p-4 sm:w-1/3">
               <div className={`md:h-full rounded-xl shadow-cla-blue bg-gradient-to-r ${member.gradientFrom} ${member.gradientTo} overflow-hidden p-2`}>
-                <img className="aspect-[3/2] rounded-t-2xl object-cover lg:h-[310px] md:h-36 w-full drop-shadow-md" src={member.imgSrc} alt="team member" />
-                <div className="p-6 bg-slate-200 h-[250px] rounded-b-lg width-full drop-shadow-md">
-                <h2 className="sm:text-sm md:text-base roboto-bold font-bold text-xl text-gray-600 mb-3">{member.name}</h2>
+                <img className="aspect-[3/2] rounded-t-2xl object-cover lg:h-[270px] md:h-36 w-full drop-shadow-md" src={member.imgSrc} alt="team member" />
+                <div className="p-6 bg-slate-200 h-[400px] md:h-[370px] rounded-b-lg width-full drop-shadow-md">
+                <h2 className="sm:text-sm md:text-2xl roboto-bold font-bold text-xl text-gray-600 mb-3">{member.name}</h2>
                 <h3 className="text-center flex p-1 tracking-widest text-xs title-font font-medium text-white mb-1 bg-sky-500 rounded-lg max-w-[110px]">{member.category}</h3>   
                   <p className="sm:text-sm md:text-base leading-relaxed mb-3">{member.description}</p>
                   <div className="flex items-center flex-wrap "></div>

@@ -167,6 +167,7 @@ const MockData = {
       statement:
         "My experience with steve has been one rocky road with ups and downs, He came in my life at a teal bad time after me losing my big brother. I was a lost child in the street. He came to see me and I wasnt so respectful to him because I never had a male figure in my life but he never gave up on me. He was hands on in the streets so he had his ways of finding me when I tried to avoid him. He Showed me real tough love & saved my life & even went as far as saving my friends lives. To this day we all still have the up most respect for him. Steve represents manhood to me. Im still alive because of him. He has exposed me to many positive people and places. Allot of the people I know now are through Steve",
       imgSrc: "https://placehold.co/400",
+      alt: "Thomas Gasten",
     },
     {
       id: 2,
@@ -174,6 +175,7 @@ const MockData = {
       statement:
         "I had something very tragic happen and it put me in a very vulnerable position, But I was extremely blessed with wonderful people around me like Steve that provided me with transportation to school. I am extremely grateful for the opportunity that steve and the people that work with him have given me.",
       imgSrc: "https://placehold.co/400",
+      alt: "Dallal Brown",  
     },
     {
       id: 3,
@@ -181,6 +183,7 @@ const MockData = {
       statement:
         "I had something very tragic happen and it put me in a very vulnerable position, But I was extremely blessed with wonderful people around me like Steve that provided me with transportation to school. I am extremely grateful for the opportunity that steve and the people that work with him have given me.",
       imgSrc: "https://placehold.co/400",
+      alt: "Dallal Brown",
     },
   ],
   navigation: [

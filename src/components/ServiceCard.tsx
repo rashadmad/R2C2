@@ -8,12 +8,12 @@ const ServiceCard: React.FC<{
   title: string;
   description: string;
 }> = ({ icon,imgSrc, title, description, altTag }) => (
-  <div className="max-w-sm">
+  <div>
     <div className="relative">
-      <img className="rounded-lg w-full size-60 ml-5" src={imgSrc} alt={altTag}></img>
+      <img className="rounded-lg w-full size-64 max-w-lg" src={imgSrc} alt={altTag}></img>
     </div>
     <div className="p-4 w-full grid-cols-2">
-      <div className="pl-6">
+      <div>
         <h2 className="roboto-bold text-xl font-bold tracking-tight text-white pb-2 mb-3 slate-400 ">
         <FontAwesomeIcon className="fa-lg mr-2 mt-0 mb-0 text-white" icon={icon} />{title}
         </h2>

@@ -20,7 +20,7 @@ const Services: React.FC = () => (
         </div>
       </div>
       <div className="flex mb-10 gap-x-6 items-center justify-center">
-        <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-4 px-20 md:px-20 text-slate-700">
+        <div className="grid lg:grid-cols-3 md:grid-cols-1 gap-4 md:px-20 text-slate-700">
           {copyData.Services && copyData.Services.map((service, index) => (
             <div key={index}>
               <ServiceCard
@@ -28,6 +28,7 @@ const Services: React.FC = () => (
                 icon={service.icon}
                 title={service.title}
                 description={service.description}
+                altTag={service.altTag}
               />
             </div>
           ))}
