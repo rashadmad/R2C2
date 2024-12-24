@@ -6,7 +6,7 @@ const config: GatsbyConfig = {
     siteUrl: `https://www.R2c2Reimaginingroseland.org`,
     location: `Roseland | Chicago, IL`,
     description: `R2C2 is a Chicago-based non-profit dedicated to uplifting low-income and African American residents of Roseland. We provide essential resources like summer jobs, safety programs, food assistance, housing support, and Community Violence Intervention (CVI) to empower our community.`,
-    author: `Rashad Madison`,
+    author: `www.rashadmadison.com | Rashad Madison`,
     icon: `src/images/star.png`,
     image: `src/images/star.png`,
   },

@@ -25,7 +25,7 @@ const MockData = {
   TeamMembers: [
     {
       id: 1,
-      imgSrc: "https://stevegatesmedia.s3.us-east-2.amazonaws.com/steph-5.jpg",
+      imgSrc: "https://stevegatesmedia.s3.us-east-2.amazonaws.com/steph.png",
       category: "Board Member",
       name: "Stephanie Gates",
       description:
@@ -48,7 +48,7 @@ const MockData = {
     {
       id: 3,
       imgSrc:
-        "https://stevegatesmedia.s3.us-east-2.amazonaws.com/Josh+Williams+-+Headshot.jpg",
+        "https://stevegatesmedia.s3.us-east-2.amazonaws.com/JoshWilliams.png",
       category: "Board Member",
       name: "Josh Williams",
       description:
@@ -60,7 +60,7 @@ const MockData = {
     {
       id: 4,
       imgSrc:
-        "https://stevegatesmedia.s3.us-east-2.amazonaws.com/ryan_beaco.jpg",
+        "https://stevegatesmedia.s3.us-east-2.amazonaws.com/ryanbeaco.png",
       category: "Board Member",
       name: "Ryan Beaco",
       description:
@@ -78,7 +78,7 @@ const MockData = {
     {
       id: 1,
       icon: "fa-peace",
-      imgSrc: "https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3802.JPG",
+      imgSrc: "https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3802.png",
       title: "Victim Advocacy",
       altTag: "steven and kid peace sign with hands",
       description:
@@ -128,7 +128,7 @@ const MockData = {
       id: 6,
       icon: "fa-solid fa-people-group",
       imgSrc:
-        "https://stevegatesmedia.s3.us-east-2.amazonaws.com/manWorking.jpg",
+        "https://stevegatesmedia.s3.us-east-2.amazonaws.com/manWorking.png",
       title: "Non-traditional career paths",
       altTag: "Blue collar Black Man",
       description:
