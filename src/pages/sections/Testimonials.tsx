@@ -27,7 +27,7 @@ const Testimonials: React.FC = () => {
               <div className="relative aspect-[2/3] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
                 <img
                   alt=""
-                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/thomas.jpg"
+                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/thomas.png"
                   className="absolute lg:h-[600px] inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl"
                 />
               </div>

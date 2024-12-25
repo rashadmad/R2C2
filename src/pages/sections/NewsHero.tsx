@@ -45,7 +45,7 @@ export default function NewsHero() {
               <div className="relative">
                 <img
                   alt="horseback riding two teens"
-                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A4019.JPG"
+                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A4019.png"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
                 <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -55,7 +55,7 @@ export default function NewsHero() {
               <div className="relative">
                 <img
                   alt="African American Kid with orange hat"
-                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A4339.JPG"
+                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A4339.png"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
                 <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -63,7 +63,7 @@ export default function NewsHero() {
               <div className="relative">
                 <img
                   alt="African American Kid creating a shirt"
-                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3711.JPG"
+                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3711.png"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
                 <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -73,7 +73,7 @@ export default function NewsHero() {
               <div className="relative">
                 <img
                   alt="R2C2 speaker"
-                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A4350.JPG"
+                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A4350.png"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
                 <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -81,7 +81,7 @@ export default function NewsHero() {
               <div className="relative">
                 <img
                   alt="R2C2 Leader"
-                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3702+.JPG"
+                  src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3702.png"
                   className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                 />
                 <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
