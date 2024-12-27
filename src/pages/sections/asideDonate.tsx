@@ -9,7 +9,7 @@ const AsideDonate: React.FC = () => {
       <div className="absolute inset-0 overflow-hidden">
         <img
           alt=""
-          src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3817.JPG"
+          src="https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3817.png"
           className="h-full w-full object-cover object-center aside"
         />
       </div>
