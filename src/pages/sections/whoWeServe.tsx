@@ -52,7 +52,7 @@ const WhoWeServe: React.FC = () => {
                         <div className="flex-auto justify-center w-full max-h-[500px] xl:max-w-[700px] xl:mt-[6rem]">
                             <img
                                 className="rounded-lg size-full transform scale-x-[-1]"
-                                src={"https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3810.JPG"}
+                                src={"https://stevegatesmedia.s3.us-east-2.amazonaws.com/_T4A3810.png"}
                                 alt="Community support and engagement"
                             />
                         </div>
